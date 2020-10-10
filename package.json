@@ -1,8 +1,8 @@
 {
-    "name": "ghost-starter-theme",
-    "description": "A custom theme for ghost",
-    "demo": "https://starter.ghost.io",
-    "version": "1.0.0",
+    "name": "ghost-univui-theme",
+    "description": "Next UnivUnix.com theme",
+    "demo": "-",
+    "version": "0.0.1",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
@@ -21,9 +21,9 @@
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Ángel González",
+        "email": "aglezabad@univunix.com",
+        "url": "https://univunix.com"
     },
     "gpm": {
         "type": "theme",
@@ -35,14 +35,15 @@
     "keywords": [
         "ghost",
         "theme",
-        "ghost-theme"
+        "ghost-theme",
+        "univunix"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Starter.git"
+        "url": "https://github.com/UnivUnix/UnivUI.git"
     },
-    "bugs": "https://github.com/TryGhost/Starter/issues",
-    "contributors": "https://github.com/TryGhost/Starter/graphs/contributors",
+    "bugs": "https://github.com/UnivUnix/UnivUI/issues",
+    "contributors": "https://github.com/UnivUnix/UnivUI/graphs/contributors",
     "devDependencies": {
         "autoprefixer": "9.7.6",
         "cssnano": "4.1.10",

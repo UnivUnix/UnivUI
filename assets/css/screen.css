@@ -60,6 +60,11 @@ html,
     margin: 0 auto;
 }
 
+.gh-head {
+    background: var(--main-color);
+    color: var(--main-text-color);
+}
+
 .gh-head-actions a {
     display: inline-flex;
     align-items: center;
@@ -78,6 +83,11 @@ html,
 
 .gh-head-actions a:last-child svg {
     height: 2rem;
+}
+
+.gh-foot {
+    background: var(--main-color);
+    color: var(--main-text-color);
 }
 
 /* Index
