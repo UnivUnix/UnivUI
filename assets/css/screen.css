@@ -33,7 +33,16 @@ html,
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: #fff;
+    background-color: #e1e1e1;
+    background-image: linear-gradient(30deg,#c7c7c7 12%,transparent 12.5%,transparent 87%,#c7c7c7 87.5%,#c7c7c7),
+    linear-gradient(150deg,#c7c7c7 12%,transparent 12.5%,transparent 87%,#c7c7c7 87.5%,#c7c7c7),
+    linear-gradient(30deg,#c7c7c7 12%,transparent 12.5%,transparent 87%,#c7c7c7 87.5%,#c7c7c7),
+    linear-gradient(150deg,#c7c7c7 12%,transparent 12.5%,transparent 87%,#c7c7c7 87.5%,#c7c7c7),
+    linear-gradient(60deg,#fafafa 25%,transparent 25.5%,transparent 75%,#fafafa 75%,#fafafa),
+    linear-gradient(60deg,#fafafa 25%,transparent 25.5%,transparent 75%,#fafafa 75%,#fafafa);
+    background-position: 0 0,0 0,40px 70px,40px 70px,0 0,40px 70px;
+    background-size: 80px 140px;
+    background-attachment: fixed;
 }
 
 .gh-main {
@@ -47,7 +56,9 @@ html,
 }
 
 .gh-article {
-    padding: 8vmin 0;
+    margin: 4vmin;
+    padding: 4vmin;
+    background-color: var(--color-bg);
 }
 
 .gh-postfeed {
@@ -92,6 +103,11 @@ html,
 
 /* Index
 /* ---------------------------------------------------------- */
+
+.gh-card {
+    background-color: var(--color-bg);
+    padding: 0 0 1.5em 0;
+}
 
 .gh-card:not(:first-child) {
     margin: 8vmin auto 0;
@@ -144,9 +160,10 @@ html,
 /* ---------------------------------------------------------- */
 
 .gh-page-head {
-    margin: 0 auto;
-    padding: 8vmin 0 4vmin;
+    margin: 6vmin auto 2vmin auto;
+    padding: 1em 0;
     text-align: center;
+    background-color: var(--secondary-color);
 }
 
 .gh-page-image {
